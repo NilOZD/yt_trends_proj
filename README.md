@@ -1,4 +1,4 @@
 # yt_trends_proj
 
-##resources
+## resources
 https://github.com/mitchelljy/Trending-YouTube-Scraper
