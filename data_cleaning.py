@@ -19,3 +19,5 @@ df["title_uppercase"] = df["title"].str.count((r'[A-Z]'))
 
 
 df.drop(["video_id","publishedAt","channelId","likes","dislikes","thumbnail_link","ratings_disabled"], axis=1, inplace=True)
+
+df.to_csv("yttrendvids_cleaned_data.csv", index=False)
